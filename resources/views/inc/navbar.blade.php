@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
 
@@ -11,8 +11,8 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a class="navbar-brand" href="{{ url('/') }}" style="color:black;">
+                        <p>Sports Festival</p>
                     </a>
                 </div>
 
