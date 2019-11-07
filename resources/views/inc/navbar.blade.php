@@ -24,7 +24,7 @@
 
                     <ul class="nav navbar-nav">
                         <li><a href="/laravel/public">Home</a></li>
-                        <li><a href="/laravel/public/posts">Blog</a></li>
+                        <li><a href="/laravel/public/posts">News</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
