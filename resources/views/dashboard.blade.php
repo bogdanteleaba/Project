@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <a href="/laravel/public/posts/create" class="btn btn-primary">Create Post</a>
+                    <a href="/create" class="btn btn-primary">Create Post</a>
                         <h3> Your blog Posts</h3>
                         @if(count($posts) > 0)
                         <table class="table table-striped">
@@ -25,7 +25,7 @@
                             @foreach($posts as $post)
                                 <tr>
                                     <td>{{ $post->title }}</td>
-                                    <td><a href="/laravel/public/posts/{{ $post->id }}/edit" class="btn btn-default">Edit</a></th>
+                                    <td><a href="/posts/{{ $post->id }}/edit" class="btn btn-default">Edit</a></th>
                                     <td>
                                             {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right'])!!}
                                             {{ Form::hidden('_method', 'DELETE') }}
