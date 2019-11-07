@@ -14,7 +14,7 @@
             Here you can find the competitions we are organizing. In the same time, you are welcome to navigate on our blog page for updates regarding organization and competitions.
         </p>
         <br>
-        <a href="/laravel/public/posts" class="btn btn-primary btn-lg" style="background-color: #5B8D09; color:white; border: 1px solid #5B8D09;"> News</a>
+        <a href="/posts" class="btn btn-primary btn-lg" style="background-color: #5B8D09; color:white; border: 1px solid #5B8D09;"> News</a>
     </div>
     <hr>
     <!-- Card1  -->
