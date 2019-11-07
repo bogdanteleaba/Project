@@ -23,8 +23,8 @@
                     </ul>
 
                     <ul class="nav navbar-nav">
-                        <li><a href="/laravel/public">Home</a></li>
-                        <li><a href="/laravel/public/posts">News</a></li>
+                        <li><a href="/public">Home</a></li>
+                        <li><a href="/posts">News</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
